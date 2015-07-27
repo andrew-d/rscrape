@@ -1,0 +1,8 @@
+[package]
+name = "rscrape"
+version = "0.1.0"
+authors = ["Andrew Dunham <andrew@du.nham.ca>"]
+
+[dependencies]
+hyper = "0.6"
+kuchiki = { git = "https://github.com/SimonSapin/kuchiki.git" }
